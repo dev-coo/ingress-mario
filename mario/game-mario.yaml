@@ -43,7 +43,7 @@ metadata:
   annotations:
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/target-type: ip
-    alb.ingress.kubernetes.io/load-balancer-name: dongseo
+    alb.ingress.kubernetes.io/load-balancer-name: dongseo-coo
     alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:383654655155:certificate/2fc62299-2c33-4113-8eb6-12e2c62410d3
     alb.ingress.kubernetes.io/healthcheck-protocol: HTTP
     alb.ingress.kubernetes.io/healthcheck-port: traffic-port
@@ -54,7 +54,7 @@ metadata:
     alb.ingress.kubernetes.io/success-codes: '200'
     alb.ingress.kubernetes.io/healthy-threshold-count: '2'
     alb.ingress.kubernetes.io/unhealthy-threshold-count: '2'
-    alb.ingress.kubernetes.io/group.name: dongseo
+    alb.ingress.kubernetes.io/group.name: dongseo-coo
 spec:
   ingressClassName: alb
   rules:
