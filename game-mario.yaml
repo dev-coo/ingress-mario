@@ -58,7 +58,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: "coo.luckyvanilla.com"
+    - host: "coomario.luckyvanilla.com"
       http:
         paths:
           - pathType: Prefix
